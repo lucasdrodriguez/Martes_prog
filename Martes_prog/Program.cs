@@ -11,9 +11,8 @@ namespace Martes_prog
 
         static void Main(string[] args)
         {
-            int edadesSumadas;
-            int kmSumados;
 
+            string[,] matrizNombres = new string[2,3];
 
             int[] arrayEdades = new int[5];
 
@@ -22,20 +21,15 @@ namespace Martes_prog
             arrayEdades[2] = 14;
             arrayEdades[3] = 15;
 
+            for (int i = 0; i < arrayEdades.Length; i++)
+            {
+                Console.WriteLine($"{arrayEdades[i]}");
+            }
 
-            Console.WriteLine("posicion 4");
-            Console.WriteLine(arrayEdades[4]);
-
-            int valorInicial = 9;
-
-            Console.WriteLine("Valor inicial");
-            Console.WriteLine(valorInicial);
 
             Console.ReadKey();
 
         }
-
-
 
     }
 }
