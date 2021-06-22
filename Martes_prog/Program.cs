@@ -23,10 +23,12 @@ namespace Martes_prog
             arrayEdades[3] = 15;
 
 
+            Console.WriteLine("posicion 4");
             Console.WriteLine(arrayEdades[4]);
 
             int valorInicial = 9;
 
+            Console.WriteLine("Valor inicial");
             Console.WriteLine(valorInicial);
 
             Console.ReadKey();
