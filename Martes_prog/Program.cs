@@ -42,6 +42,28 @@ namespace Martes_prog
             Console.WriteLine("------------------------------------");
         }
 
+        static void MatrizPersonas()
+        {
+            string[,] personas = new string[3, 4];
+
+            personas[0, 0] = "Giuliana";
+            personas[1, 0] = "Juan";
+            personas[2, 0] = "Lucy";
+
+            personas[0, 1] = "Melluso";
+            personas[1, 1] = "Perez";
+            personas[2, 1] = "Cortes";
+
+            personas[0, 2] = "23";
+            personas[1, 2] = "20";
+            personas[2, 2] = "21";
+
+            personas[0, 3] = "Perro";
+            personas[1, 3] = "Gato";
+            personas[2, 3] = "Pez";
+
+        }
+
         /// <summary>
         /// Fucion que maneja el menu principal
         /// </summary>
@@ -78,11 +100,11 @@ namespace Martes_prog
                 default:
                     return true;
             }
-
-
             Console.ReadKey();
 
         }
+
+
 
     }
 
